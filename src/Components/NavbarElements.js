@@ -8,7 +8,16 @@ export const Nav = styled.nav`
   justify-content: center;
   padding: 2rem calc((100vw - 1000px) / 2);
   z-index: 10;
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
+  @media screen and (max-width: 583px) {
+    padding-bottom: 4rem;
+  }
+  @media screen and (max-width: 455px) {
+    padding-bottom: 3rem;
+  }
+  @media screen and (max-width: 280px) {
+    padding-bottom: 2.5rem;
+  }
 `;
 
 export const NavLink = styled(Link)`
