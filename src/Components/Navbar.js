@@ -7,7 +7,7 @@ import {
 const Navbar = () => {
     return (
         <>
-            <Nav>
+            <Nav className="font-['Mada']">
                 <NavMenu>
                     <NavLink to='/' activeStyle>
                         Home

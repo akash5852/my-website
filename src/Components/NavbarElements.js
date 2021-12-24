@@ -29,10 +29,14 @@ export const NavLink = styled(Link)`
   height: 100%;
   cursor: pointer;
   &:hover {
-    color: red; 
+    transition-timing-function: ease-in;
+    transition-duration: 300ms;
+    --tw-text-opacity: 1;
+    color: rgb(14 165 233 / var(--tw-text-opacity));
   }
   &.active {
-    color: #15cdfc;
+    --tw-text-opacity: 1;
+    color: rgb(14 165 233 / var(--tw-text-opacity));
   }
   @media screen and (max-width: 583px) {
     padding: 0 1.5rem;
