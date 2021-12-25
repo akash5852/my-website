@@ -5,7 +5,6 @@ import { FaEnvelope } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { BsFillFileEarmarkPersonFill } from 'react-icons/bs'
 const Home = () => {
-
     const experiences = ['Java', 'Python', 'JavaScript', 'C', 'C++', 'HTML/CSS', 'Node.js', 'React', 'MongoDB', 'Express.js', 'Google Cloud Platform', 'MySQL'];
     const listItems = experiences.map((myList) => {
         return <li>&ensp; <Emoji symbol="★" label="star" /> &nbsp;{myList}</li>;

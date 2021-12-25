@@ -31,7 +31,9 @@ const Project = (props) => {
                 <>
                     <Button size="large" color="primary">
                         <FaGithub />
-                    </Button> </>)
+                    </Button>
+                </>
+            )
         }
     }
 
@@ -61,9 +63,9 @@ const Project = (props) => {
                         </Typography>
                     </CardContent>
                 </CardActionArea>
-                <CardActions className="">
+                <CardActions>
                     <Buttons />
-
+                    
                 </CardActions>
             </Card>
         </div>
