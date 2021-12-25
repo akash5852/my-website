@@ -18,7 +18,7 @@ const Home = () => {
 
     return (
         <>
-            <section className="font-['Mada'] mr-[auto] ml-[auto] max-w-[1000px] pb-16 " id="about-me">
+            <section className="font-['Mada'] mr-[auto] ml-[auto] max-w-[1000px] pb-16" id="about-me">
                 <div className="display flex align-middle justify-center" id="pic-and-title">
                     <img className="w-[11rem] rounded-full " src="https://chandra.harvard.edu/photo/2011/a2744/a2744.jpg" alt="pic of me" />
                 </div>
