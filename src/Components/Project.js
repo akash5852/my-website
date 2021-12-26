@@ -4,6 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { FaPaperclip } from "react-icons/fa";
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
 
@@ -17,19 +18,19 @@ const Project = (props) => {
         if (info.link) {
             return (
                 <>
-                    <Button size="large" color="primary">
+                    <Button href={info.gitlink} size="large" color="primary">
                         <FaGithub />
                     </Button>
 
-                    <Button size="large" color="primary">
-                        <FaGithub />
+                    <Button href={info.link} size="large" color="primary">
+                        <FaPaperclip />
                     </Button>
                 </>
             )
         } else {
             return (
                 <>
-                    <Button size="large" color="primary">
+                    <Button href={info.gitlink} size="large" color="primary">
                         <FaGithub />
                     </Button>
                 </>
@@ -38,14 +39,14 @@ const Project = (props) => {
     }
 
     return (
-        <div className="flex justify-center pb-10">
+        <div className="flex justify-center pb-10 pl-2 pr-2">
             <Card className="text-left max-w-[425px]" >
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="140"
-                        image="https://scx2.b-cdn.net/gfx/news/2017/theoreticala.jpg"
-                        alt="green iguana"
+                        image={info.image}
+                        alt={info.imageALT}
                     />
                     <CardContent>
 
@@ -58,14 +59,13 @@ const Project = (props) => {
                         </div>
 
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            {info.desc}
                         </Typography>
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
                     <Buttons />
-                    
+
                 </CardActions>
             </Card>
         </div>
