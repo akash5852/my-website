@@ -4,8 +4,7 @@ import Home from './Pages/Home.js'
 import Projects from './Pages/Projects.js'
 import Contact from './Pages/Contact.js'
 import Footer from './Components/Footer.js';
-import Background from './Components/Background.js';
-import { Canvas } from "react-three-fiber";
+
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 function App() {

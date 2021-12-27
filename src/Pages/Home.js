@@ -4,15 +4,16 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { BsFillFileEarmarkPersonFill } from 'react-icons/bs'
+
 const Home = () => {
     const experiences = ['Java', 'Python', 'JavaScript', 'C', 'C++', 'HTML/CSS', 'Node.js', 'React', 'MongoDB', 'Express.js', 'Google Cloud Platform', 'MySQL'];
     const listItems = experiences.map((myList) => {
-        return <li>&ensp; <Emoji symbol="★" label="star" /> &nbsp;{myList}</li>;
+        return <li>&ensp; <Emoji symbol="•" label="star" /> &nbsp;{myList}</li>;
     });
   
     const hobbies = [`Cruise on my Penny Skateboard`, 'Watch movies and TV shows', 'Work out and try to achieve my dream physique', 'Listen to lots of music', 'Play video games such as Valorant with friends'];
     const listHobbies = hobbies.map((hobbies) => {
-        return <li>&ensp; <Emoji symbol="★" label="star" /> &nbsp;{hobbies}</li>;
+        return <li>&ensp; <Emoji symbol="•" label="star" /> &nbsp;{hobbies}</li>;
     });
 
     return (

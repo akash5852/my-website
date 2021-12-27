@@ -7,13 +7,14 @@ import Typography from '@mui/material/Typography';
 import { FaPaperclip } from "react-icons/fa";
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
-
 const Project = (props) => {
     const info = props.info;
     const Tech = info.tech;
+
     const tech = Tech.map((Tech) => {
         return <p className=' bg-sky-500 text-white mr-2 rounded-full pl-3 pr-3'>{Tech}</p>;
     });
+
     const Buttons = () => {
         if (info.link) {
             return (
@@ -49,15 +50,12 @@ const Project = (props) => {
                         alt={info.imageALT}
                     />
                     <CardContent>
-
                         <Typography gutterBottom variant="h5" component="div">
                             {info.title}
-
                         </Typography>
                         <div className='pb-2 flex  text-[0.48rem] xs:text-xs' >
                             {tech}
                         </div>
-
                         <Typography variant="body2" color="text.secondary">
                             {info.desc}
                         </Typography>
@@ -65,10 +63,10 @@ const Project = (props) => {
                 </CardActionArea>
                 <CardActions>
                     <Buttons />
-
                 </CardActions>
             </Card>
         </div>
     );
 }
+
 export default Project;
