@@ -1,5 +1,5 @@
 import Emoji from 'a11y-react-emoji'
-import resume from '../Resources/Akash_Sharma_res.pdf'
+import resume from '../Resources/Akash__Sharma_res.pdf'
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';

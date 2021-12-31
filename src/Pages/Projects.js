@@ -3,6 +3,7 @@ import Emoji from 'a11y-react-emoji'
 import Project from '../Components/Project.js';
 import c4 from "../Resources/c4.jpg"
 import gymregistration from "../Resources/gymregistration.jpg"
+import mealapp from "../Resources/mealapp.jpg"
 
 const Projects = () => {
     const projects = [
@@ -11,8 +12,8 @@ const Projects = () => {
             desc: "A full-stack meal app made to help users conveniently generate meal ideas on a daily basis.",
             tech: ["React", "Express", "Node", "MongoDB"],
             gitlink: "https://github.com/akash5852/food-random-app",
-            link: "fdasf",
-            image: gymregistration,
+            link: "",
+            image: mealapp,
             imageALT: "Meal idea generator front end",
         },
         {
