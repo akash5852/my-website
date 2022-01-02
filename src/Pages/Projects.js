@@ -12,7 +12,7 @@ const Projects = () => {
             desc: "A full-stack meal app made to help users conveniently generate meal ideas on a daily basis.",
             tech: ["React", "Express", "Node", "MongoDB"],
             gitlink: "https://github.com/akash5852/food-random-app",
-            link: "",
+            link: "https://meal-generator-xyz.netlify.app/",
             image: mealapp,
             imageALT: "Meal idea generator front end",
         },
