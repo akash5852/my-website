@@ -7,7 +7,7 @@ import { FaInstagramSquare } from 'react-icons/fa';
 import { BsFillFileEarmarkPersonFill } from 'react-icons/bs'
 
 const Home = () => {
-    const experiences = ['Java', 'Python', 'JavaScript', 'C', 'C++', 'HTML/CSS', 'Node.js', 'React', 'MongoDB', 'Express.js', 'Google Cloud Platform', 'MySQL'];
+    const experiences = ['Java', 'Python', 'JavaScript', 'C', 'C++', 'HTML/CSS', 'Node.js', 'React', 'MongoDB', 'Express.js', 'Google Cloud Platform', 'PostgresSQL', 'Docker', 'Kubernetes'];
     const listItems = experiences.map((myList) => {
         return <li>&ensp; <Emoji symbol="•" label="star" /> &nbsp;{myList}</li>;
     });
@@ -39,7 +39,7 @@ const Home = () => {
                     </div>
                     <div className='text-[0.85em] sm:text-[1.1em] tall:text-[1.9em]'>
                         <p className="text-left">
-                            I'm a second year Computer Engineering student at McMaster University with a passion for developing software that improves lives.
+                            I'm a third year Computer Engineering student at McMaster University with a passion for developing software that improves lives.
                         </p>
                         <p className="text-left pt-5">
                             I'm currently exploring the world of full stack development, and have experience in:<br></br>
