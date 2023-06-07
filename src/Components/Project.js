@@ -16,7 +16,7 @@ const Project = (props) => {
     });
 
     const Buttons = () => {
-        if (info.link) {
+        if (info.link && info.gitlink) {
             return (
                 <>
                     <Button href={info.gitlink} size="large" color="primary">
@@ -28,12 +28,25 @@ const Project = (props) => {
                     </Button>
                 </>
             )
-        } else {
+        } else if (info.link && !info.gitlink) {
+            return (
+                <>
+                    <Button href={info.link} size="large" color="primary">
+                        <FaPaperclip />
+                    </Button>
+                </>
+            )
+        } else if (info.gitlink && !info.link) {
             return (
                 <>
                     <Button href={info.gitlink} size="large" color="primary">
                         <FaGithub />
                     </Button>
+                </>
+            )
+        } else {
+            return (
+                <>
                 </>
             )
         }
