@@ -63,7 +63,7 @@ const Projects = () => {
     return (
         <section className="font-['Mada'] mr-[auto] ml-[auto] max-w-[1000px] pl-3 pr-3 pb-16 " id="projects">
             <h1 className="tall:text-[2.3em] pt-4 pb-10 text-center text-3xl font-semibold"><Emoji className='font-normal' symbol="👨‍💻" label="star" /> Some of my favourite projects</h1>
-            <div className='grid grid-cols-3 grid-rows-2' id="projects-container">
+            <div className='lg:grid lg:grid-cols-3 lg:grid-rows-2' id="projects-container">
                 {projects.map((project) => (
                     <Project info={project} />
                 ))}
