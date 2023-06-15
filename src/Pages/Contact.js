@@ -21,7 +21,7 @@ const Calendly = () => {
 const Contact = () => {
     return (
         <>
-            <section className="font-['Mada'] mr-[auto] ml-[auto] max-w-[1000px] pb-16" id="contact-me">
+            <section className="font-['Adagio Sans'] mr-[auto] ml-[auto] max-w-[1000px] pb-16" id="contact-me">
                 <h1 className="tall:text-[2.3em] pt-4 pb-10 text-center text-3xl font-semibold"><Emoji className='font-normal' symbol="🤝" label="star" /> Lets Connect!</h1>
                 <h2 className='text-[1.5em] pb-3'>You can contact me with my social media links below or book a meeting with me using Calendly</h2>
 
