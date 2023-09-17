@@ -15,7 +15,7 @@ const Home = () => {
         return <li>&ensp; <Emoji symbol="•" label="star" /> &nbsp;{myList}</li>;
     });
 
-    const hobbies = [`lifting weights 🏋️‍♂️`, 'watching movies and videos 🍿', 'hanging out with friends 🎾'];
+    const hobbies = [`lifting weights 🏋️‍♂️`, 'watching movies and retrospectives 🍿', 'going on adventures with friends 🎾'];
     const listHobbies = hobbies.map((hobbies) => {
         return <li>&ensp; <Emoji symbol="•" label="star" /> &nbsp;{hobbies}</li>;
     });
@@ -42,7 +42,7 @@ const Home = () => {
                     </div>
                     <div className='text-[0.85em] sm:text-[1.1em] tall:text-[1.9em]'>
                         <p className="text-left">
-                            I'm a <b>3rd year Computer Engineering student</b>  at <b>McMaster University</b> with a passion for developing software that improves lives. I am currently interning as a <b>Software Engineer</b> at <b>TD</b>.
+                            I'm a <b>4th year Computer Engineering student</b>  at <b>McMaster University</b> with a passion for developing software that improves lives. I am currently interning as a <b>Software Engineer</b> at <b>Sun Life</b>, and previously interned at <b>TD Bank</b>.
                         </p>
 
                         <p className="text-left pt-5">
