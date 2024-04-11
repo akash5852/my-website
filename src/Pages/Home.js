@@ -1,5 +1,6 @@
 import Emoji from 'a11y-react-emoji'
 import resume from '../Resources/Akash_Sharma_res.pdf'
+import pic from '../Resources/picofme.png'
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
@@ -24,7 +25,7 @@ const Home = () => {
         <>
             <section className="font-['Adagio Sans'] mr-[auto] ml-[auto] max-w-[1000px] pb-16" id="about-me">
                 <div className="display flex align-middle justify-center" id="pic-and-title">
-                    <img className="w-[11rem] rounded-full " src="https://chandra.harvard.edu/photo/2011/a2744/a2744.jpg" alt="pic of me" />
+                    <img className="w-[11rem] rounded-full " src={pic} alt="pic of me" />
                 </div>
                 <h1 className="tall:text-[2.3em] pt-4 pb-4 text-center text-3xl font-semibold"> <Wave>👋</Wave> Hey, I'm Akash <br />Welcome to my website!</h1>
                 <div className='pl-5 pr-5' id="main-section">
@@ -42,7 +43,7 @@ const Home = () => {
                     </div>
                     <div className='text-[0.85em] sm:text-[1.1em] tall:text-[1.9em]'>
                         <p className="text-left">
-                            I'm a <b>4th year Computer Engineering student</b>  at <b>McMaster University</b> with a passion for developing software that improves lives. I am currently interning as a <b>Software Engineer</b> at <b>Sun Life</b>, and previously interned at <b>TD Bank</b>.
+                            I'm a <b>4th year Computer Engineering student</b> at <b>McMaster University</b> with a passion for developing innovative software that improves lives. I am currently interning as a <b>Software Engineer</b> at <b>TD AMCB</b>, and previously interned at <b>Sun Life</b> and <b>TD Bank</b>.
                         </p>
 
                         <p className="text-left pt-5">
