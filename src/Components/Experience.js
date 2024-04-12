@@ -3,8 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActions } from '@mui/material';
-import { FaLinkedin } from "react-icons/fa"; // Assuming you might link to a LinkedIn profile
 
 const Experience = (props) => {
     const { title, company, duration, desc, tech, companyLogo, alt } = props.info;
