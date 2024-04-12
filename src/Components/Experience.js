@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { CardActions } from '@mui/material';
 
 const Experience = (props) => {
     const { title, company, duration, desc, tech, companyLogo, alt } = props.info;
